@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <SC.label>奴隸主集團攻擊棍</SC.label>
+  <SC.description>集團專為奴隸自殺式進攻研製的一次性格鬥棍具。這種廉價的棍具通過3D打印技術批量生產，最大化了武器威力，同時最小化了武器壽命。</SC.description>
+  <SC.tools.0.label>棍柄</SC.tools.0.label>
+  <SC.tools.1.label>攻擊棍</SC.tools.1.label>
+
+
+</LanguageData>

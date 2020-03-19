@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <SlaveF.label>奴隸戰士</SlaveF.label>
+  <SlaveF.labelPlural>奴隸戰士</SlaveF.labelPlural>
+
+  <SlaveG.label>奴隸槍手</SlaveG.label>
+  <SlaveG.labelPlural>奴隸槍手</SlaveG.labelPlural>
+
+  <SlaveMaster.label>奴隸隊長</SlaveMaster.label>
+  <SlaveMaster.labelPlural>奴隸隊長</SlaveMaster.labelPlural>
+
+  <SlaveB.label>奴隸敢死隊</SlaveB.label>
+  <SlaveB.labelPlural>奴隸敢死隊</SlaveB.labelPlural>
+
+  <SlaveCEO.label>集團總裁</SlaveCEO.label>
+  <SlaveCEO.labelPlural>集團總裁</SlaveCEO.labelPlural>
+
+
+</LanguageData>

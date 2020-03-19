@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <HeaderSlave.label>奴隸頭目</HeaderSlave.label>
+  <HeaderSlave.description>奴隸們的教官。他們控制奴隸進攻你的基地。奴隸頭目將其他奴隸作為盾牌。</HeaderSlave.description>
+  <HeaderSlave.tools.0.label>左側奴隸</HeaderSlave.tools.0.label>
+  <HeaderSlave.tools.1.label>右側奴隸</HeaderSlave.tools.1.label>
+  <!-- Use Leather From: Human -->
+  <!-- Use Meat From: Human -->
+  <HeaderSlave_Corpse.label>奴隸主屍體</HeaderSlave_Corpse.label>
+  <HeaderSlave_Corpse.description>奴隸主屍體</HeaderSlave_Corpse.description>
+
+
+  <!--<HeaderSlave_Leather.label>奴隸主皮</HeaderSlave_Leather.label>-->
+  <!--<HeaderSlave_Leather.description>奴隸主皮</HeaderSlave_Leather.description>-->
+  <!--<HeaderSlave_Leather.stuffProps.stuffAdjective>奴隸主皮</HeaderSlave_Leather.stuffProps.stuffAdjective>-->
+  <!--<HeaderSlave_Meat.label>奴隸主肉</HeaderSlave_Meat.label>-->
+  <!--<HeaderSlave_Meat.description>奴隸主肉</HeaderSlave_Meat.description>-->
+
+</LanguageData>

@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <FactionDef>
+    <defName>Slaves</defName>
+    <label>Slave master's faction</label>
+    <description>The space slave trade group. The slave trade group owns large slave trade ships, they are worse than pirates. They control a number of slaves to plunder other's space ship and base. They loot properties and people from other's space ship and base.</description>
+    <pawnsPlural>Slaves</pawnsPlural>
+    <settlementGenerationWeight>1</settlementGenerationWeight>
+    <requiredCountAtGameStart>1</requiredCountAtGameStart>
+    <raidCommonalityFromPointsCurve>
+		<points>
+			<li>(40, 3)</li>
+			<li>(400, 1)</li>
+		</points>
+	</raidCommonalityFromPointsCurve>
+    <fixedName>Slaves</fixedName>
+    <canMakeRandomly>true</canMakeRandomly>
+    <canSiege>false</canSiege>
+    <canStageAttacks>false</canStageAttacks>
+    <leaderTitle>Master</leaderTitle>
+    <goodwillDailyGain>0.20</goodwillDailyGain>
+    <goodwillDailyFall>0.40</goodwillDailyFall>
+    <expandingIconTexture>Things/SIcon</expandingIconTexture>
+    <colorSpectrum>
+      <li>(0.9, 0.9, 0.9)</li>
+    </colorSpectrum>
+    <startingGoodwill>
+      <min>-100</min>
+      <max>0</max>
+    </startingGoodwill>
+    <techLevel>Spacer</techLevel>
+    <backstoryCategories>
+      <li>Civil</li>
+    </backstoryCategories>
+    <hidden>false</hidden>
+    <hairTags>
+      <li>Urban</li>
+    </hairTags>
+    <naturalColonyGoodwill>
+      <min>-10</min>
+      <max>10</max>
+    </naturalColonyGoodwill>
+    <caravanTraderKinds>
+      <li>Caravan_Outlander_Exotic</li>
+      <li>Caravan_Slaves_PirateMerchant</li>
+    </caravanTraderKinds>
+    <visitorTraderKinds>
+      <li>Visitor_Slaves_Standard</li>
+    </visitorTraderKinds>
+    <baseTraderKinds>
+      <li>Caravan_Slaves_Slaver</li>
+    </baseTraderKinds>
+    <allowedArrivalTemperatureRange>
+      <min>-50</min>
+      <max>50</max>
+    </allowedArrivalTemperatureRange>
+    <maxPawnCostPerTotalPointsCurve>
+      <points>
+        <li>(0,35)</li>
+        <li>(70, 50)</li>
+        <li>(700, 200)</li>
+        <li>(1300, 1500)</li>
+        <li>(100000, 10000)</li>
+      </points>
+    </maxPawnCostPerTotalPointsCurve>
+    <pawnGroupMakers>
+      <li>
+        <kindDef>Combat</kindDef>
+        <options>
+          <SlaveF>100</SlaveF>
+          <SlaveG>250</SlaveG>
+          <SlaveB>100</SlaveB>
+          <SlaveMaster>2</SlaveMaster>
+          <HeaderSlave>1</HeaderSlave>
+          <SlaveCEO>2</SlaveCEO>
+        </options>
+      </li>
+      <li>
+        <kindDef>Peaceful</kindDef>
+        <options>
+          <SlaveF>100</SlaveF>
+          <SlaveG>250</SlaveG>
+          <SlaveMaster>45</SlaveMaster>
+          <SlaveCEO>10</SlaveCEO>
+        </options>
+      </li>
+      <li>
+        <kindDef>Trader</kindDef>
+        <traders>
+          <SlaveMaster>1</SlaveMaster>
+        </traders>
+        <carriers>
+          <Muffalo>5</Muffalo>
+        </carriers>
+        <guards>
+          <SlaveF>4</SlaveF>
+          <SlaveG>4</SlaveG>
+          <HeaderSlave>1</HeaderSlave>
+        </guards>
+      </li>
+      <li>
+        <kindDef>Settlement</kindDef>
+        <options>
+          <SlaveF>100</SlaveF>
+          <SlaveG>250</SlaveG>
+          <SlaveB>100</SlaveB>
+          <SlaveMaster>4</SlaveMaster>
+          <HeaderSlave>1</HeaderSlave>
+          <SlaveCEO>3</SlaveCEO>
+        </options>
+      </li>
+    </pawnGroupMakers>
+    <homeIconPath>World/WorldObjects/DefaultSettlement</homeIconPath>
+  </FactionDef>
+</Defs>

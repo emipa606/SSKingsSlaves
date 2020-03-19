@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- ============================================================== -->
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_S</defName>
+    <label>Slave bullet</label>
+    <graphicData>
+      <texPath>Projectile/SBullet</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>9</damageAmountBase>
+      <speed>80</speed>
+    </projectile>
+  </ThingDef>
+  <ThingDef ParentName="BaseGun">
+    <defName>SA</defName>
+    <label>Slave Pistol</label>
+    <description>The pistol is volume producted by 3D printing technology. They are cheap but dangerous. They are designed for suicide attack, minimized the service life and maximized the damage.</description>
+    <graphicData>
+      <texPath>SlaveWeapon/SA</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <statBases>
+      <Mass>1.4</Mass>
+	  <MaxHitPoints>50</MaxHitPoints>
+      <MarketValue>500</MarketValue>
+      <AccuracyTouch>0.87</AccuracyTouch>
+      <AccuracyShort>0.75</AccuracyShort>
+      <AccuracyMedium>0.51</AccuracyMedium>
+      <AccuracyLong>0.4</AccuracyLong>
+      <DeteriorationRate>10</DeteriorationRate>
+      <RangedWeapon_Cooldown>0.6</RangedWeapon_Cooldown>
+    </statBases>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_S</defaultProjectile>
+        <warmupTime>0.2</warmupTime>
+        <range>18</range>
+        <soundCast>Shot_AssaultRifle</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>6</muzzleFlashScale>
+      </li>
+    </verbs>
+    <weaponTags>
+      <li>SlaveG</li>
+    </weaponTags>
+	<tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Poke</li>
+		  <li>Blunt</li>
+        </capacities>
+        <power>7</power>
+        <cooldownTime>1.2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+  <!-- ========================================================== -->
+  <ThingDef ParentName="BaseBullet">
+    <defName>Bullet_SR</defName>
+    <label>Slave bulletR</label>
+    <graphicData>
+      <texPath>Projectile/SBullet</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>8</damageAmountBase>
+      <speed>80</speed>
+    </projectile>
+  </ThingDef>
+  <ThingDef ParentName="BaseGun">
+    <defName>SB</defName>
+    <label>Slave Rifle</label>
+    <description>The rifle is volume producted by 3D printing technology. They are cheap but dangerous. They are designed for suicide attack, minimized the service life and maximized the damage.</description>
+    <graphicData>
+      <texPath>SlaveWeapon/SB</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_ChargeRifle</soundInteract>
+    <statBases>
+      <Mass>3.8</Mass>
+	  <MaxHitPoints>50</MaxHitPoints>
+      <MarketValue>650</MarketValue>
+      <AccuracyTouch>0.90</AccuracyTouch>
+      <AccuracyShort>0.73</AccuracyShort>
+      <AccuracyMedium>0.64</AccuracyMedium>
+      <AccuracyLong>0.55</AccuracyLong>
+      <DeteriorationRate>10</DeteriorationRate>
+      <RangedWeapon_Cooldown>0.75</RangedWeapon_Cooldown>
+    </statBases>
+    <techLevel>Spacer</techLevel>
+    <weaponTags>
+      <li>SlaveG</li>
+    </weaponTags>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_SR</defaultProjectile>
+        <warmupTime>1.2</warmupTime>
+        <range>28</range>
+        <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
+        <burstShotCount>4</burstShotCount>
+        <soundCast>Shot_ChargeRifle</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+	<tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Poke</li>
+		  <li>Blunt</li>
+        </capacities>
+        <power>7</power>
+        <cooldownTime>1.2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+  <!-- ========================================================== -->
+  <ThingDef ParentName="BaseGrenadeProjectile">
+    <defName>Bullet_SS</defName>
+    <label>suicide bomb</label>
+    <thingClass>Projectile_Explosive</thingClass>
+    <graphicData>
+      <texPath>Projectile/SSBullet</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <explosionRadius>2.5</explosionRadius>
+      <damageDef>BombSuper</damageDef>
+      <damageAmountBase>200</damageAmountBase>
+      <explosionDelay>0</explosionDelay>
+      <speed>800</speed>
+    </projectile>
+  </ThingDef>
+  <ThingDef ParentName="BaseWeapon">
+    <defName>SS</defName>
+    <equipmentType>Primary</equipmentType>
+    <label>Suicide bomb</label>
+    <description>The suicide bomb. They were binded on the slaves by the trade group. The slaves become suicide bombers with those horrible bombs.</description>
+    <graphicData>
+      <texPath>SlaveWeapon/SS</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Grenade</soundInteract>
+    <techLevel>Industrial</techLevel>
+    <statBases>
+      <Mass>2.4</Mass>
+	  <MaxHitPoints>50</MaxHitPoints>
+      <MarketValue>600</MarketValue>
+      <DeteriorationRate>10</DeteriorationRate>
+      <RangedWeapon_Cooldown>2.66</RangedWeapon_Cooldown>
+    </statBases>
+    <weaponTags>
+      <li>SlaveB</li>
+    </weaponTags>
+    <thingCategories>
+      <li>Grenades</li>
+    </thingCategories>
+    <verbs>
+      <li>
+        <label>throw frag grenade</label>
+        <verbClass>Verb_ShootOneUse</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <range>2</range>
+        <forcedMissRadius>0.1</forcedMissRadius>
+        <warmupTime>0</warmupTime>
+        <noiseRadius>4</noiseRadius>
+        <ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
+        <soundCast>ThrowGrenade</soundCast>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+        <defaultProjectile>Bullet_SS</defaultProjectile>
+      </li>
+    </verbs>
+	<tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>GoToBomb</li>
+        </capacities>
+        <power>7</power>
+        <cooldownTime>1.2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+  <ToolCapacityDef>
+    <defName>GoToBomb</defName>
+  </ToolCapacityDef>
+  <ManeuverDef>
+    <defName>GoToBomb</defName>
+    <requiredCapacity>GoToBomb</requiredCapacity>
+    <verb>
+      <verbClass>KingsSalves.Verb_SalvesBomb</verbClass>
+      <meleeDamageDef>Bullet</meleeDamageDef>
+    </verb>
+    <logEntryDef>MeleeAttack</logEntryDef>
+    <combatLogRulesHit>Maneuver_Slash_MeleeHit</combatLogRulesHit>
+    <combatLogRulesDeflect>Maneuver_Slash_MeleeDeflect</combatLogRulesDeflect>
+    <combatLogRulesMiss>Maneuver_Slash_MeleeMiss</combatLogRulesMiss>
+    <combatLogRulesDodge>Maneuver_Slash_MeleeDodge</combatLogRulesDodge>
+  </ManeuverDef>
+</Defs>

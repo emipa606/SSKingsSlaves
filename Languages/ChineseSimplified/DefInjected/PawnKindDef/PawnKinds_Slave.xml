@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <SlaveF.label>奴隶战士</SlaveF.label>
+  <SlaveF.labelPlural>奴隶战士</SlaveF.labelPlural>
+
+  <SlaveG.label>奴隶枪手</SlaveG.label>
+  <SlaveG.labelPlural>奴隶枪手</SlaveG.labelPlural>
+
+  <SlaveMaster.label>奴隶队长</SlaveMaster.label>
+  <SlaveMaster.labelPlural>奴隶队长</SlaveMaster.labelPlural>
+
+  <SlaveB.label>奴隶敢死队</SlaveB.label>
+  <SlaveB.labelPlural>奴隶敢死队</SlaveB.labelPlural>
+
+  <SlaveCEO.label>集团总裁</SlaveCEO.label>
+  <SlaveCEO.labelPlural>集团总裁</SlaveCEO.labelPlural>
+
+
+</LanguageData>

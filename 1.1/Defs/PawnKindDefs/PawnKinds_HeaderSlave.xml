@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+ 
+  <PawnKindDef ParentName="AnimalKindBase">
+    <defName>HeaderSlave</defName>
+    <label>HeaderSlave</label>
+    <labelPlural>HeaderSlave</labelPlural>
+    <race>HeaderSlave</race>
+    <defaultFactionType>Slaves</defaultFactionType>
+    <combatPower>300</combatPower>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Pawn/HeaderSlave</texPath>
+          <drawSize>3</drawSize>
+          <shaderType>CutoutComplex</shaderType>
+        </bodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+
+</Defs>

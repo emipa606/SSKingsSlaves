@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Bullet_S.label>奴隶主集团手枪弹</Bullet_S.label>
+
+  <SA.label>奴隶主集团手枪</SA.label>
+  <SA.description>集团专为奴隶自杀式进攻研制的一次性手枪。这种廉价的手枪通过3D打印技术批量生产，最大化了武器威力，同时最小化了武器寿命。</SA.description>
+
+  <Bullet_SR.label>奴隶主集团步枪弹</Bullet_SR.label>
+
+  <SB.label>奴隶主集团步枪</SB.label>
+  <SB.description>集团专为奴隶自杀式进攻研制的一次性步枪。这种廉价的步枪通过3D打印技术批量生产，最大化了武器威力，同时最小化了武器寿命。</SB.description>
+
+  <Bullet_SS.label>自杀式炸弹</Bullet_SS.label>
+
+  <SS.label>自杀式炸弹</SS.label>
+  <SS.description>自杀式炸弹。这些东西被绑在奴隶们的身上。让奴隶们成为可怕的炸弹。</SS.description>
+  <SS.verbs.0.label>引爆炸弹</SS.verbs.0.label>
+
+
+
+</LanguageData>

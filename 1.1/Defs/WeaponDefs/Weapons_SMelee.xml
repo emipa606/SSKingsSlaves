@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="BaseMeleeWeapon_Sharp">
+    <defName>SC</defName>
+    <label>Slave stick</label>
+    <description>The stick is volume producted by 3D printing technology. They are cheap but dangerous. They are designed for suicide attack, minimized the service life and maximized the damage.</description>
+    <graphicData>
+      <texPath>SlaveWeapon/SC</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <costStuffCount>70</costStuffCount>
+    <statBases>
+      <WorkToMake>600</WorkToMake>
+      <Mass>2.0</Mass>
+	  <MaxHitPoints>50</MaxHitPoints>
+      <DeteriorationRate>10</DeteriorationRate>
+    </statBases>
+    <equippedStatOffsets>
+      <MoveSpeed>2.00</MoveSpeed>
+      <WorkSpeedGlobal>-0.70</WorkSpeedGlobal>
+    </equippedStatOffsets>
+    <equippedAngleOffset>-65</equippedAngleOffset>
+    <stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+	<tools>
+      <li>
+        <label>handle</label>
+        <capacities>
+          <li>Poke</li>
+		  <li>Blunt</li>
+        </capacities>
+        <power>7</power>
+        <cooldownTime>1.2</cooldownTime>
+      </li>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Poke</li>
+          <li>Blunt</li>
+        </capacities>
+        <power>14</power>
+        <cooldownTime>2.4</cooldownTime>
+      </li>
+    </tools>
+    <weaponTags>
+      <li>SlaveF</li>
+    </weaponTags>
+    <techLevel>Industrial</techLevel>
+    <smeltable>true</smeltable>
+  </ThingDef>
+</Defs>

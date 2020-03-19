@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Slaves.label>奴隸主集團</Slaves.label>
+  <Slaves.description>臭名昭著的奴隸主集團。他們擁有巨大的奴隸販賣星艦，穿梭於宇宙之中比海盜還要可怕。他們控制奴隸用他們廉價的生命去攻占星球上的殖民地和其他飛船，他們攻進防線後就會將財產和人員全部掠奪一空。無論被俘獲的人之前是什麼身份，就連貴族也一樣，都要戴上專用的枷鎖成為奴隸被賤賣到黑市。</Slaves.description>
+  <Slaves.fixedName>奴隸主集團</Slaves.fixedName>
+  <Slaves.pawnsPlural>奴隸</Slaves.pawnsPlural>
+  <Slaves.leaderTitle>總裁</Slaves.leaderTitle>
+
+
+</LanguageData>

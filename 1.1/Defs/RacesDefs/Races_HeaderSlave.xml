@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="BasePawn" Name="HeaderSlave" Abstract="True">
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <statBases>
+      <PsychicSensitivity>0.5</PsychicSensitivity>
+      <ToxicSensitivity>0.5</ToxicSensitivity>
+      <Flammability>0</Flammability>
+      <ComfyTemperatureMin>-45</ComfyTemperatureMin>
+      <ComfyTemperatureMax>50</ComfyTemperatureMax>
+      <MeatAmount>0</MeatAmount>
+    </statBases>
+  </ThingDef>
+ 
+  <ThingDef ParentName="HeaderSlave">
+    <defName>HeaderSlave</defName>
+    <label>HeaderSlave</label>
+    <description>The provost of slaves. They control the slaves to attact your base. The headerSlave will use other slaves as their shields.</description>
+    <statBases>
+      <MoveSpeed>5</MoveSpeed>
+      <ArmorRating_Blunt>0.50</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.50</ArmorRating_Sharp>
+      <MeatAmount>60</MeatAmount>
+      <LeatherAmount>30</LeatherAmount>
+    </statBases>
+    <tools>
+      <li>
+        <label>Slaves on the left</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>21</power>
+        <cooldownTime>2.1</cooldownTime>
+        <linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+      </li>
+      <li>
+        <label>Slaves on the left</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>1</cooldownTime>
+        <linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+      </li>
+    </tools>
+    <race>
+	  <foodType>OmnivoreAnimal, OvivoreAnimal</foodType>
+      <useMeatFrom>Human</useMeatFrom>
+      <useLeatherFrom>Human</useLeatherFrom>
+      <gestationPeriodDays>30</gestationPeriodDays>
+      <needsRest>false</needsRest>
+      <hasGenders>false</hasGenders>
+      <lifeExpectancy>70</lifeExpectancy>
+      <thinkTreeMain>Animal</thinkTreeMain>
+      <trainability>None</trainability>
+      <thinkTreeConstant>AnimalConstant</thinkTreeConstant>
+      <intelligence>ToolUser</intelligence>
+      <body>Human</body>
+      <baseBodySize>5</baseBodySize>
+      <baseHealthScale>5</baseHealthScale>
+      <lifeStageAges>
+        <li>
+          <def>AnimalAdult</def>
+          <minAge>0</minAge>
+          <soundWounded>Pawn_Mech_Centipede_Wounded</soundWounded>
+          <soundDeath>Pawn_Mech_Centipede_Death</soundDeath>
+          <soundCall>Pawn_Mech_Centipede_Call</soundCall>
+        </li>
+      </lifeStageAges>
+      <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+    </race>
+  </ThingDef>
+
+
+</Defs>

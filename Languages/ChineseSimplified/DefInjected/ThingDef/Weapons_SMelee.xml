@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <SC.label>奴隶主集团攻击棍</SC.label>
+  <SC.description>集团专为奴隶自杀式进攻研制的一次性格斗棍具。这种廉价的棍具通过3D打印技术批量生产，最大化了武器威力，同时最小化了武器寿命。</SC.description>
+  <SC.tools.0.label>棍柄</SC.tools.0.label>
+  <SC.tools.1.label>攻击棍</SC.tools.1.label>
+
+
+</LanguageData>

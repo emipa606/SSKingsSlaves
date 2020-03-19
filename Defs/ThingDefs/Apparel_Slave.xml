@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="ApparelBase">
+    <defName>SlaveCollar</defName>
+    <label>Slave collar</label>
+    <description>The massive slave collar is made by the trade group in order to control their slaves. The collar made the slaves like animals and it become a night mare of all the slaves.</description>
+    <graphicData>
+      <texPath>Apparel/Collar</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <thingCategories>
+      <li>Apparel</li>
+    </thingCategories>
+    <statBases>
+	  <Mass>2</Mass>
+      <DeteriorationRate>0</DeteriorationRate>
+      <MaxHitPoints>250</MaxHitPoints>
+      <MarketValue>500</MarketValue>
+      <ArmorRating_Blunt>0.1</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.1</ArmorRating_Sharp>
+      <ArmorRating_Heat>0.1</ArmorRating_Heat>
+      <Insulation_Heat>25</Insulation_Heat>
+      <Insulation_Cold>55</Insulation_Cold>
+    </statBases>
+    <equippedStatOffsets>
+      <SocialImpact>-0.2</SocialImpact>
+      <MoveSpeed>0.5</MoveSpeed>
+      <WorkSpeedGlobal>-0.2</WorkSpeedGlobal>
+    </equippedStatOffsets>
+	<costList>
+      <ComponentIndustrial>1</ComponentIndustrial>
+      <Steel>20</Steel>
+    </costList>
+    <apparel>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Shoulders</li>
+        <li>Arms</li>
+        <li>Legs</li>
+      </bodyPartGroups>
+      <wornGraphicPath>Apparel/Collar</wornGraphicPath>
+      <layers>
+        <li>OnSkin</li>
+        <li>Middle</li>
+        <li>Shell</li>
+      </layers>
+      <tags>
+        <li>Slave</li>
+      </tags>
+      <defaultOutfitTags>
+        <li>Soldier</li>
+      </defaultOutfitTags>
+    </apparel>
+    <colorGenerator Class="ColorGenerator_Options">
+      <options>
+        <li>
+          <weight>5</weight>
+          <only>RGBA(0.33,0.33,0.33,1)</only>
+        </li>
+      </options>
+    </colorGenerator>
+  </ThingDef>
+</Defs>
